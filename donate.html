@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Donate — Bright Bites</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="https://via.placeholder.com/48x48.png?text=BB" alt="Bright Bites logo" class="logo" />
+        <span class="site-title">Bright Bites</span>
+      </div>
+
+      <div class="header-controls">
+        <button id="theme-toggle" class="theme-toggle" aria-pressed="false" title="Toggle dark mode">
+          <span class="sr-only">Toggle dark mode</span>
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+
+        <button id="nav-toggle" aria-expanded="false" aria-controls="site-nav" class="nav-toggle">
+          <span class="sr-only">Open menu</span>
+          ☰
+        </button>
+      </div>
+
+      <nav id="site-nav" class="site-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="donate.html" aria-current="page" class="donate-link">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <h1>Support Bright Bites</h1>
+    <p>Your contribution helps us source healthy ingredients, keep school pantries stocked, and run free workshops.</p>
+
+    <section class="donation-options">
+      <h2>One-time donation</h2>
+      <p>Use the button below to donate via our secure processor.</p>
+      <a href="https://example.org/donate" class="btn btn-primary">Donate $25</a>
+
+      <h2 style="margin-top:1.5rem">Monthly support</h2>
+      <p>Monthly giving helps us plan and scale programs.</p>
+      <a href="https://example.org/donate" class="btn btn-secondary">Become a monthly donor</a>
+
+      <h3 style="margin-top:1.5rem">Other ways to help</h3>
+      <ul>
+        <li>Volunteer your time</li>
+        <li>Host a food drive</li>
+        <li>Sponsor a school pantry</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><div class="footer-brand"><p>Bright Bites</p></div></div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

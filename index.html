@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bright Bites — Nourishing Communities</title>
+  <meta name="description" content="Bright Bites is a nonprofit bringing nourishing meals and food education to underserved communities." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "Bright Bites",
+    "url": "https://example.org",
+    "logo": "https://example.org/logo.png",
+    "sameAs": [
+      "https://facebook.com/brightbites",
+      "https://instagram.com/brightbites"
+    ],
+    "description": "Bright Bites provides healthy meals and food education to underserved families."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="https://via.placeholder.com/48x48.png?text=BB" alt="Bright Bites logo" class="logo" />
+        <span class="site-title">Bright Bites</span>
+      </div>
+
+      <div class="header-controls">
+        <button id="theme-toggle" class="theme-toggle" aria-pressed="false" title="Toggle dark mode">
+          <span class="sr-only">Toggle dark mode</span>
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+
+        <button id="nav-toggle" aria-expanded="false" aria-controls="site-nav" class="nav-toggle">
+          <span class="sr-only">Open menu</span>
+          ☰
+        </button>
+      </div>
+
+      <nav id="site-nav" class="site-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="donate.html" class="donate-link">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Healthy meals. Happy futures.</h1>
+          <p class="lead">Bright Bites delivers nutritious meals and hands-on food education to children and families in need.</p>
+          <div class="hero-ctas">
+            <a href="donate.html" class="btn btn-primary">Donate Now</a>
+            <a href="#programs" class="btn btn-secondary">Our Programs</a>
+          </div>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=6b7c9f2b9b2f2e0c9b2d540a5b7c8a31" alt="Volunteers serving meals" />
+        </div>
+      </div>
+    </section>
+
+    <section id="programs" class="container programs" aria-labelledby="programs-heading">
+      <h2 id="programs-heading">Our Programs</h2>
+      <div class="grid cards">
+        <article class="card">
+          <h3>Community Meals</h3>
+          <p>Weekly meal distributions with fresh, healthy options for families experiencing food insecurity.</p>
+        </article>
+
+        <article class="card">
+          <h3>School Pantry</h3>
+          <p>On-campus pantries and weekend kits so students have food when school is out.</p>
+        </article>
+
+        <article class="card">
+          <h3>Nutrition Workshops</h3>
+          <p>Hands-on workshops teaching families how to cook nutritious, budget-friendly meals.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="impact container" aria-labelledby="impact-heading">
+      <h2 id="impact-heading">Impact at a glance</h2>
+      <div class="grid stats">
+        <div class="stat">
+          <strong>25k+</strong>
+          <span>Meals served last year</span>
+        </div>
+        <div class="stat">
+          <strong>40+</strong>
+          <span>School pantries supported</span>
+        </div>
+        <div class="stat">
+          <strong>3,200</strong>
+          <span>People reached through workshops</span>
+        </div>
+      </div>
+      <div class="container cta-row">
+        <p class="cta-text">Want to make a difference? Volunteer one afternoon a month and see the impact.</p>
+        <a href="contact.html#volunteer" class="btn btn-primary">Sign up to volunteer</a>
+      </div>
+    </section>
+
+    <section class="newsletter container" aria-labelledby="newsletter-heading">
+      <h2 id="newsletter-heading">Stay informed</h2>
+      <p>Join our newsletter to receive updates on events, drives, and volunteer opportunities.</p>
+      <form class="newsletter-form" action="https://formspree.io/f/your-form-id" method="POST" novalidate>
+        <label for="email" class="sr-only">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@example.org" required />
+        <button type="submit" class="btn btn-secondary">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="https://via.placeholder.com/40x40.png?text=BB" alt="" aria-hidden="true">
+        <p>Bright Bites — Feeding hope, building skills.</p>
+      </div>
+
+      <div class="footer-links">
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container legal">
+      <small>&copy; <span id="year"></span> Bright Bites. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
